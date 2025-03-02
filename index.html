@@ -212,7 +212,7 @@
                 </select>
             </div>
             <div class="form-group">
-                <label>Отработано часов в месяце (Вам в двоном размере заплатят за разницу часов по Вашему и по Производственному графикам. Не больше):</label>
+                <label>Отработано часов в месяце (В двойном размере заплатят за разницу часов по Вашему и по Производственному графикам. Не больше):</label>
                 <input type="number" id="workedHours" min="0" required>
             </div>
             <div class="form-group">
@@ -330,7 +330,7 @@
                 <div class="result-item">Доплата за праздничные дни: ${holidayPay.toFixed(2)} руб</div>
                 <div class="result-item">Доплата за категорию: ${categoryBonus.toFixed(2)} руб</div>
                 <div class="result-item">${hoursAdjustment < 0 ? 'Штраф за недоработку часов' : 'Переработка'}: ${hoursAdjustment.toFixed(2)} руб</div>
-                <div class="result-item">Оплата за переработки по графику в двойном размере (Вам в двоном размере заплатят за разницу часов по Вашему и по Производственному графикам. Не больше): ${overtimeDoublePay.toFixed(2)} руб</div>
+                <div class="result-item">Оплата за переработки по графику в двойном размере (В двойном размере заплатят за разницу часов по Вашему и по Производственному графикам. Не больше): ${overtimeDoublePay.toFixed(2)} руб</div>
                 <div class="final-salary">Итого зарплата: ${totalSalary.toFixed(2)} руб</div>
             `;
             
